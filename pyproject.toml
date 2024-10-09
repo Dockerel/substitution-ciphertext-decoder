@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "정보보호론-hw1"
+version = "0.1.0"
+description = "substitution cipher parsor"
+authors = ["Giheon Do <dgh0001@naver.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+subbreaker = "^1.2.0"
+nltk = "^3.9.1"
+pandas = "^2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
